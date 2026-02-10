@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questions About Travel Destinations</title>
+</head>
+<body>
+    <h1>Ask Your Questions About Travel Destinations</h1>
+    <form action="/submit-question" method="post">
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Your Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="question">Your Question:</label><br>
+        <textarea id="question" name="question" rows="4" required></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
