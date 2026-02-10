@@ -1,0 +1,47 @@
+.container {
+    width: 100%;
+    padding: 10px;
+}
+
+.header, .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #444;
+}
+
+.nav a {
+    color: white;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #555;
+}
+
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+    }
+}
+
+.main {
+    margin: 20px;
+    text-align: left;
+}
+
+@media (max-width: 600px) {
+    .main {
+        margin: 10px;
+    }
+    .header, .footer {
+        padding: 5px;
+    }
+}
